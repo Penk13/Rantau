@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: pixil-frame-0_(7)_2
+  m_Name: pixil-frame-0_(8)_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 2067258869, guid: 84718c5f01f856749ab556ff419f8896, type: 3}
+  m_Sprite: {fileID: -939116628, guid: ce6ccff63f1e8df40b3002f4760d6206, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
