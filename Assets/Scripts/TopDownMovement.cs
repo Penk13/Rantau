@@ -16,7 +16,7 @@ public class TopDownMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        float moveInputHorizontal = Input.GetAxisRaw("Horizontal");
+        float moveInputHorizontal = movement.x;
 
         if(moveInputHorizontal < 0 && facingRight){
             flip();
