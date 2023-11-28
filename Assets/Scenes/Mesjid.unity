@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &920612439 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 261551009284908799, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
-  m_PrefabInstance: {fileID: 1612367019}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1494635946
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +207,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1557000135 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2097926364453303583, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
+  m_PrefabInstance: {fileID: 1612367019}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1583865810
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FollowSpeed: 10
-  target: {fileID: 920612439}
+  target: {fileID: 1557000135}
 --- !u!81 &1583865812
 AudioListener:
   m_ObjectHideFlags: 0
@@ -328,12 +328,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2097926364453303583, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2097926364453303583, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2097926364453303583, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2097926364453303583, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.06
+      value: -2.83
       objectReference: {fileID: 0}
     - target: {fileID: 2097926364453303583, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.02
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 2097926364453303583, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -372,7 +384,8 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2232155734927525363, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}

@@ -8,8 +8,13 @@ public class TopDownMovement : MonoBehaviour
     public Rigidbody2D rb;
     Vector2 movement;
     bool facingRight = true;
+    Animator anim;
 
-
+    void Start()
+    {
+        // Get the Animator component attached to the same GameObject
+        anim = GetComponent<Animator>();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -24,6 +29,7 @@ public class TopDownMovement : MonoBehaviour
         if(moveInputHorizontal > 0 && !facingRight){
             flip();
         }
+        anim.SetFloat("Speed", Mathf.Abs(movement.x + movement.y));
     }
 
     private void FixedUpdate()
