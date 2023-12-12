@@ -29,7 +29,6 @@ public class Interactable : Collideable
         if (!z_Interacted)
         {
             z_Interacted = true;
-            Debug.Log("INTERACT WITH " + target_scene);
             SceneManager.LoadScene(target_scene);
         }
         else 
@@ -40,7 +39,6 @@ public class Interactable : Collideable
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("HEY");
         if (collision.gameObject.name.Equals("Player"))
         {
             interact_text.gameObject.SetActive(true);
