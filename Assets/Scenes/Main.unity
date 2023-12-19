@@ -858,6 +858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TeleportBox
       objectReference: {fileID: 0}
+    - target: {fileID: 3485969415601724648, guid: 106cd84d1aa57ed4c8517de458a8ec28, type: 3}
+      propertyPath: target_scene
+      value: Rumah
+      objectReference: {fileID: 0}
     - target: {fileID: 5148152341500190629, guid: 106cd84d1aa57ed4c8517de458a8ec28, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.053333282
