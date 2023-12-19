@@ -136,6 +136,10 @@ PrefabInstance:
       value: TeleportBox
       objectReference: {fileID: 0}
     - target: {fileID: 3485969415601724648, guid: 106cd84d1aa57ed4c8517de458a8ec28, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485969415601724648, guid: 106cd84d1aa57ed4c8517de458a8ec28, type: 3}
       propertyPath: target_scene
       value: Main
       objectReference: {fileID: 0}
@@ -320,17 +324,21 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -4.93151, y: -0.8218798}
-  - {x: -0.4757617, y: -0.801382}
+  - {x: -4.8551908, y: -0.62632465}
+  - {x: -2.8694324, y: -0.61804366}
+  - {x: -0.5320783, y: -0.60829645}
   - {x: -0.5005238, y: 2.3981}
   - {x: 3.5984323, y: 2.397829}
   - {x: 3.5487437, y: -0.326764}
-  - {x: 0.53128564, y: -0.30103695}
-  - {x: 0.496158, y: -2.4124231}
+  - {x: 0.41193676, y: -0.35218656}
+  - {x: 0.4252534, y: -2.4658694}
+  - {x: -0.8542908, y: -2.4876974}
+  - {x: -1.3149267, y: -2.1010683}
+  - {x: -1.6944721, y: -2.09469}
   - {x: -1.9944743, y: -2.422556}
   - {x: -2.0707655, y: -4.185803}
-  - {x: -4.8424788, y: -4.210427}
-  - {x: -4.981385, y: -0.84494257}
+  - {x: -4.873296, y: -4.2258353}
+  - {x: -4.864039, y: -0.6216057}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -435,6 +443,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 346518581305988860, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
+      propertyPath: m_Size.x
+      value: 2.9303856
+      objectReference: {fileID: 0}
+    - target: {fileID: 346518581305988860, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
+      propertyPath: m_Size.y
+      value: 6.040447
+      objectReference: {fileID: 0}
+    - target: {fileID: 346518581305988860, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.37535638
+      objectReference: {fileID: 0}
+    - target: {fileID: 346518581305988860, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2097926364453303583, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.59
