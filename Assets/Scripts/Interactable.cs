@@ -21,7 +21,10 @@ public class Interactable : Collideable
     protected override void OnCollided(GameObject collidedObject) {
         if (Input.GetKey(KeyCode.E))
         {
-            OnInteract();
+            if (collidedObject.tag == "Player")
+            {
+                OnInteract();
+            }
         }
     }
 
