@@ -30,6 +30,10 @@ public class TopDownMovement : MonoBehaviour
             flip();
         }
         anim.SetFloat("Speed", Mathf.Abs(movement.x + movement.y));
+
+        transform.position = new Vector2(
+            Mathf.Clamp(transform.position.x, -12.0f, 75.0f),
+            Mathf.Clamp(transform.position.y, -15.0f, 60.0f));
     }
 
     private void FixedUpdate()
