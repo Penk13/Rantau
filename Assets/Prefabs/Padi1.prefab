@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 378660515014065158}
   - component: {fileID: 6514847443295528769}
   - component: {fileID: 9158295029930228611}
+  - component: {fileID: -7310440172757759482}
   m_Layer: 0
   m_Name: Padi1
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3873130514604809953}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.05, y: 2.59, z: -3.8150482}
   m_LocalScale: {x: 0.06591662, y: 0.06591662, z: 0.06591662}
   m_ConstrainProportionsScale: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -685540420, guid: 7b40163f0687c2e408410a36fa5cf26f, type: 3}
+  m_Sprite: {fileID: 1438939359, guid: 81927b3b808e2ac41af10e86609e5991, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,16 +118,34 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -1.0448947, y: 0.1491785}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 13.356793, y: 18}
+    oldSize: {x: 15.014663, y: 15}
     newSize: {x: 13.356793, y: 18}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 13.356793, y: 18}
+  m_Size: {x: 23.664371, y: 25.458044}
   m_EdgeRadius: 0
+--- !u!114 &-7310440172757759482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873130514604809953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be78df699f653d4dbc86ded88fdbbce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  growthStages:
+  - {fileID: 1438939359, guid: 81927b3b808e2ac41af10e86609e5991, type: 3}
+  - {fileID: 1430506915, guid: 81927b3b808e2ac41af10e86609e5991, type: 3}
+  - {fileID: 297180533, guid: 81927b3b808e2ac41af10e86609e5991, type: 3}
+  - {fileID: 2032661989, guid: 81927b3b808e2ac41af10e86609e5991, type: 3}
+  - {fileID: 2074338800, guid: 81927b3b808e2ac41af10e86609e5991, type: 3}

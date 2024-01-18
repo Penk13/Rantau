@@ -34,11 +34,12 @@ public class SeedBox : Collideable
             z_Interacted = true;
 
             Vector3 centerPosition = transform.position;
-            Instantiate(seed, centerPosition, Quaternion.identity);
+            centerPosition.z = -3f;
+            Instantiate(seed, centerPosition, Quaternion.identity, transform);
         }
         else 
         {
-
+            
         }
     }
 
@@ -47,6 +48,10 @@ public class SeedBox : Collideable
         if (collision.gameObject.name.Equals("Player"))
         {
             interact_text.gameObject.SetActive(true);
+            if (transform.childCount <= 1)
+            {
+                z_Interacted = false;
+            }
         }
     }
 

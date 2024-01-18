@@ -20,4 +20,13 @@ public class Player : MonoBehaviour
     {
         
     }
+
+    public void AddMoney(int amount)
+    {
+        money += amount;
+        moneyText.text = "Money: " + money.ToString();
+
+        // You may also save the updated money value to PlayerPrefs or another persistent storage if needed
+        PlayerPrefs.SetInt("Money", money);
+    }
 }
