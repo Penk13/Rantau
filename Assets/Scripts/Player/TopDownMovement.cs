@@ -23,6 +23,15 @@ public class TopDownMovement : MonoBehaviour
 
         float moveInputHorizontal = movement.x;
 
+        if (Input.GetKey(KeyCode.LeftShift) == true)
+        {
+            moveSpeed = 10f;
+        } 
+        else 
+        {
+            moveSpeed = 5f;
+        }
+
         if(moveInputHorizontal < 0 && facingRight){
             flip();
         }
