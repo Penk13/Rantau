@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pendopo.unity
     guid: 781b505a2c901d1418bd8b71f3820a7d
+  - enabled: 1
+    path: Assets/Scenes/EndOfChapter.unity
+    guid: ed95b5b66a0990744a671aeda1575a57
   m_configObjects: {}
