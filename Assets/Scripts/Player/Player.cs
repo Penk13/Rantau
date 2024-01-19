@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
         money = PlayerPrefs.GetInt("Money");
         moneyText.text = "Money: " + money.ToString();
 
+        PlayerPrefs.SetFloat("MusicVolume", 0.5f);
         volume = PlayerPrefs.GetFloat("MusicVolume");
         audioSource.volume = volume;
     }
