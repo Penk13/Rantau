@@ -7673,6 +7673,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 606918517495605771, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 154656403}
     - target: {fileID: 2097926364453303583, guid: c11913bb57063a144bd5e08d1d0d6ba1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.8
